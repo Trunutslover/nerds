@@ -4,3 +4,135 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.page-header {
+    background-color: #eeeeee;
+}
+
+.slider__big-p {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: medium;
+}
+
+.about-us__big-p {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.friendship__big-p {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.main-nav {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.categories__h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.about-us__h3 {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.adress__h3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.adress__p {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.write-us__h2 {
+    font-size: 45px;
+    font-weight: medium;
+}
+
+label {
+    font: inherit;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    font: inherit;
+}
+
+.main-nav__link,
+.main-nav__cart-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.slider__button,
+.categories__button,
+.adress__button {
+    color: #fff;
+    background-color: #fb565a;
+    text-decoration: none;
+}
+
+.categories__item:nth-child(2) .categories__button {
+    background-color: #00ca74;
+}
+
+.categories__item:last-child .categories__button {
+    background-color: #efc84a;
+}
+
+.friendship__link {
+    background-color: #e1e1e1;
+}
+
+.adress {
+    background: url("../img/adress__bg.jpg") no-repeat;
+}
+
+.slider__item:first-child {
+    background: url("../img/slider__bg-1.png") no-repeat;
+}
+
+.slider__item:nth-child(2) {
+    background: url("../img/slider__bg-2.png") no-repeat;
+}
+
+.slider__item:last-child {
+    background: url("../img/slider__bg-3.png") no-repeat;
+}
+
+.categories__item:first-child {
+    background: url("../img/categories__bg-1.jpg") no-repeat;
+}
+
+.categories__item:nth-child(2) {
+    background: url("../img/categories__bg-2.jpg") no-repeat;
+}
+
+.categories__item:last-child {
+    background: url("../img/categories__bg-3.jpg") no-repeat;
+}
+
+.about-us {
+    background: url("../img/about-us__bg.jpg") no-repeat;
+}
