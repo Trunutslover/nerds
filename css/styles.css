@@ -196,11 +196,15 @@ sup {
     line-height: 30px;
 }
 
-.main-nav__main-menu {
+.main-nav__main-menu,
+.main-nav__cart {
     display: flex;
+    padding: 0;
+    align-items: center;
 }
 
-.main-nav__link {
+.main-nav__link,
+.main-nav__cart-link {
     padding: 10px 20px;
 }
 
@@ -333,4 +337,74 @@ textarea {
 
 .popup-write-us {
     display: none;
+}
+
+.partners__link {
+    opacity: 0.2;
+}
+
+/* Интерактивные стили */
+
+.main-nav__logo:hover {
+    opacity: 0.8;
+}
+
+.main-nav__logo:active {
+    opacity: 0.2;
+}
+
+.main-nav__link:hover,
+.main-nav__cart-link:hover {
+    color: #fb565a;
+}
+
+.main-nav__link:active,
+.main-nav__cart-link:active {
+    color: #a6a6a6;
+}
+
+.main-nav__link-active,
+.main-nav__cart-link-active {
+    border-bottom: 2px solid #fb565a;
+}
+
+.slider__button:hover,
+.categories__item:nth-child(1) .categories__button:hover,
+.adress__button:hover,
+.friendship__link:hover {
+    background-color: #e74246;
+}
+
+.slider__button:active,
+.categories__item:nth-child(1) .categories__button:active,
+.adress__button:active,
+.friendship__link:active {
+    background-color: #d7373b;
+    color: #a6a6a6;
+}
+
+.categories__item:nth-child(2) .categories__button:hover {
+    background-color: #00bc6c;
+}
+
+.categories__item:nth-child(2) .categories__button:active {
+    background-color: #00aa62;
+    color: #a6a6a6;
+}
+
+.categories__item:nth-child(3) .categories__button:hover {
+    background-color: #eab534;
+}
+
+.categories__item:nth-child(3) .categories__button:active {
+    background-color: #e5a722;
+    color: #a6a6a6;
+}
+
+.partners__link:hover {
+    opacity: 1;
+}
+
+.partners__link:active {
+    opacity: 0.2;
 }
