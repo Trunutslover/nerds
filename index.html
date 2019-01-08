@@ -11,44 +11,46 @@
 </head>
 <body>
     <header class="page-header">
-        <nav class="main-nav">
-            <img src="img/nerds-logo.svg" alt="Логотип">
-            <ul class="main-nav__main-menu">
-                <li><a class="main-nav__link" href="#">Студия</a></li>
-                <li><a class="main-nav__link" href="#">Клиенты</a></li>
-                <li><a class="main-nav__link" href="#">Магазин</a></li>
-                <li><a class="main-nav__link" href="#">Контакты</a></li>
-            </ul>
-            <ul class="main-nav__cart">
-                <li><a class="main-nav__cart-link" href="#">Корзина</a></li>
-            </ul>
-        </nav>
-        <section class="slider">
-            <div class="slider__item">
-                <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
-                <h2 class="visually-hidden">Слайдер с возможностями</h2>
-                <p class="slider__big-p">Долго, дорого, скрупулезно.</p>
-                <p class="slider__p">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-                <a class="slider__button" href="#">Узнать больше</a>
-            </div>
-            <div class="slider__item">
-                <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
-                <h2 class="visually-hidden">Слайдер с возможностями</h2>
-                <p class="slider__big-p">Любим математику как никто другой</p>
-                <p class="slider__p">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-                <a class="slider__button" href="#">Узнать больше</a>
-            </div>
-            <div class="slider__item">
-                <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
-                <h2 class="visually-hidden">Слайдер с возможностями</h2>
-                <p class="slider__big-p">Только ночь, только хардкор</p>
-                <p class="slider__p">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-                <a class="slider__button" href="#">Узнать больше</a>
-            </div>
-            <input class="slider__controls" type="radio" name="slider__controls" value="slide-1" checked>
-            <input class="slider__controls" type="radio" name="slider__controls" value="slide-2">
-            <input class="slider__controls" type="radio" name="slider__controls" value="slide-3">
-        </section>
+        <div class="wrapper-center-header">
+            <nav class="main-nav">
+                <img src="img/nerds-logo.svg" alt="Логотип">
+                <ul class="main-nav__main-menu">
+                    <li><a class="main-nav__link" href="#">Студия</a></li>
+                    <li><a class="main-nav__link" href="#">Клиенты</a></li>
+                    <li><a class="main-nav__link" href="#">Магазин</a></li>
+                    <li><a class="main-nav__link" href="#">Контакты</a></li>
+                </ul>
+                <ul class="main-nav__cart">
+                    <li><a class="main-nav__cart-link" href="#">Корзина</a></li>
+                </ul>
+            </nav>
+            <section class="slider">
+                <div class="slider__item">
+                    <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
+                    <h2 class="visually-hidden">Слайдер с возможностями</h2>
+                    <p class="slider__big-p">Долго, дорого, скрупулезно.</p>
+                    <p class="slider__p">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <a class="slider__button" href="#">Узнать больше</a>
+                </div>
+                <div class="slider__item">
+                    <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
+                    <h2 class="visually-hidden">Слайдер с возможностями</h2>
+                    <p class="slider__big-p">Любим математику как никто другой</p>
+                    <p class="slider__p">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                    <a class="slider__button" href="#">Узнать больше</a>
+                </div>
+                <div class="slider__item">
+                    <h1 class="visually-hidden">Нёрдс - дизайн-студия из Краснодара</h1>
+                    <h2 class="visually-hidden">Слайдер с возможностями</h2>
+                    <p class="slider__big-p">Только ночь, только хардкор</p>
+                    <p class="slider__p">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                    <a class="slider__button" href="#">Узнать больше</a>
+                </div>
+                <input class="slider__controls" type="radio" name="slider__controls" value="slide-1" checked>
+                <input class="slider__controls" type="radio" name="slider__controls" value="slide-2">
+                <input class="slider__controls" type="radio" name="slider__controls" value="slide-3">
+            </section>
+        </div>
     </header>
     <main class="page-main">
         <section class="categories">
@@ -73,36 +75,43 @@
         </section>
         <section class="about-us">
             <h2 class="visually-hidden">О нас</h2>
-            <p class="about-us__big-p">Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
-            <p class="about-us__p">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-            <h3 class="about-us__h3">Выполняем заказы на разработку:</h3>
-            <ul class="about-us__orders">
-                <li class="about-us__orders-item">Веб-сайтов любой сложности</li>
-                <li class="about-us__orders-item">Мобильных приложений для iOS и Android</li>
-                <li class="about-us__orders-item">Слайдшоу и видео для корпоративных презентаций</li>
-            </ul>
-            <h3 class="about-us__h3">с 2004 года Любим точность во всем:</h3>
-            <ul class="about-us__percents">
-                <li class="about-us__percents-item">
-                    <p class="about-us__big-p">146<sup>%</sup></p>
-                    <p class="about-us__p">Уровень самоотдачи</p>
-                </li>
-                <li class="about-us__percents-item">
-                    <p class="about-us__big-p">100<sup>%</sup></p>
-                    <p class="about-us__p">Соблюдение сроков</p>
-                </li>
-                <li class="about-us__percents-item">
-                    <p class="about-us__big-p">50<sup>%</sup></p>
-                    <p class="about-us__p">Минимальная предоплата</p>
-                </li>
-            </ul>
+            <div class="about-us__first-column">
+                <p class="about-us__big-p">Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
+                <p class="about-us__p">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+                <h3 class="about-us__h3">Выполняем заказы на разработку:</h3>
+                <ul class="about-us__orders">
+                    <li class="about-us__orders-item">Веб-сайтов любой сложности</li>
+                    <li class="about-us__orders-item">Мобильных приложений для iOS и Android</li>
+                    <li class="about-us__orders-item">Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
+            </div>
+            <div class="about-us__second-column">
+                <h3 class="about-us__h3_centered">с 2004 года Любим точность во всем:</h3>
+                <ul class="about-us__percents">
+                    <li class="about-us__percents-item">
+                        <p class="about-us__big-p">146<sup>%</sup></p>
+                        <p class="about-us__p">Уровень самоотдачи</p>
+                    </li>
+                    <li class="about-us__percents-item">
+                        <p class="about-us__big-p">100<sup>%</sup></p>
+                        <p class="about-us__p">Соблюдение сроков</p>
+                    </li>
+                    <li class="about-us__percents-item">
+                        <p class="about-us__big-p">50<sup>%</sup></p>
+                        <p class="about-us__p">Минимальная предоплата</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="partners">
             <h2 class="visually-hidden">Партнёры</h2>
             <ul class="partners__list">
                 <li class="partners__item"><a class="partners__a"><img src="img/html-academy.png" alt="html academy"></a></li>
+                <li class="partners__item"><img src="img/partners-ruler.png"></li>
                 <li class="partners__item"><a class="partners__a"><img src="img/barbershop-borodinski.png" alt="barbershop borodinski"></a></li>
+                <li class="partners__item"><img src="img/partners-ruler.png"></li>
                 <li class="partners__item"><a class="partners__a"><img src="img/pink.png" alt="pink"></a></li>
+                <li class="partners__item"><img src="img/partners-ruler.png"></li>
                 <li class="partners__item"><a class="partners__a"><img src="img/mishka.png" alt="mishka"></a></li>
             </ul>
         </section>
@@ -110,22 +119,27 @@
     <footer class="page-footer">
         <h2 class="visually-hidden">Футер</h2>
         <section class="adress">
-            <h3 class="adress__h3">NЁRDS DESIGN STUDIO</h3>
-            <p class="adress__p">191186, Санкт-Петербург,
-                <br>
-                ул. Б. Конюшенная, д. 19/8
-                <br>
-                тел. +7 (812) 275-75-75</p>
-            <a class="adress__button" href="#">Напишите нам</a>
+            <div class="adress__block">
+                <h3 class="adress__h3">NЁRDS DESIGN STUDIO</h3>
+                <p class="adress__p">191186, Санкт-Петербург,
+                    <br>
+                    ул. Б. Конюшенная, д. 19/8
+                    <br>
+                    <br>
+                    тел. +7 (812) 275-75-75</p>
+                <a class="adress__button" href="#">Напишите нам</a>
+            </div>
         </section>
         <section class="friendship">
             <ul class="friendship__social">
-                <li class="friendship"><a class="friendship__link" href="#"><img src="img/vk-icon.svg" class="friendship__img" alt="В контакте"></a></li>
-                <li class="friendship"><a class="friendship__link" href="#"><img src="img/fb-icon.svg" class="friendship__img" alt="Фейсбук"></a></li>
-                <li class="friendship"><a class="friendship__link" href="#"><img src="img/insta-icon.svg" class="friendship__img" alt="Инстаграм"></a></li>
+                <li class="friendship__social-item"><a class="friendship__link" href="#"><img src="img/vk-icon.svg" class="friendship__img" alt="В контакте"></a></li>
+                <li class="friendship__social-item"><a class="friendship__link" href="#"><img src="img/fb-icon.svg" class="friendship__img" alt="Фейсбук"></a></li>
+                <li class="friendship__social-item"><a class="friendship__link" href="#"><img src="img/insta-icon.svg" class="friendship__img" alt="Инстаграм"></a></li>
             </ul>
-            <p class="friendship__big-p">Давайте дружить, это выгодно!</p>
-            <p class="friendship__p">Скидка 10% для друзей из социальных сетей.</p>
+            <div class="friendship__second-column">
+                <p class="friendship__big-p">Давайте дружить, это выгодно!</p>
+                <p class="friendship__p">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
         </section>
     </footer>
 
