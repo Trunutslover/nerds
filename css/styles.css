@@ -208,6 +208,23 @@ sup {
     padding: 10px 20px;
 }
 
+.main-nav__cart-link {
+    padding-left: 30px;
+    position: relative;
+}
+
+.main-nav__cart-link::before {
+    content: "";
+    position: absolute;
+
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 12px;
+    background-image: url("../img/cart-icon.svg");
+    background-repeat: no-repeat;
+}
+
 .categories__h3 {
     font-size: 24px;
     line-height: 30px;
@@ -225,6 +242,25 @@ sup {
 
 .about-us__h3_centered {
     text-align: center;
+}
+
+.about-us__orders {
+    padding: 0;
+}
+
+.about-us__orders-item {
+    position: relative;
+    padding-left: 35px;
+}
+
+.about-us__orders-item::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    background: url("../img/about-us__orders_list-style.png") no-repeat;
 }
 
 .adress__h3 {
