@@ -27,7 +27,7 @@ ul {
 
     width: 1440px;
     margin: 0 auto;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 .wrapper-center-header {
@@ -35,17 +35,42 @@ ul {
     margin: 0 auto;
 }
 
+.slider {
+    position: relative;
+    min-height: 412px;
+}
+
 .slider__item {
     min-height: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 95px;
+    position: absolute;
+    width: 1160px;
+}
+
+.slider-item:nth-child(1) {
+    z-index: 100;
+}
+
+.slider-item:nth-child(2) {
+    z-index: 10;
+}
+
+.slider__item:nth-child(3){
+    z-index: 1;
+}
+
+.slider__controls {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 101;
 }
 
 .categories {
     width: 1160px;
     margin: 0 auto;
     padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 60px;
+    padding-bottom: 100px;
 
     border-bottom: 2px solid #eeeeee;
 }
@@ -53,11 +78,17 @@ ul {
 .categories__items {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .categories__item {
     width: 300px;
-    padding-top: 150px;
+    padding-top: 145px;
+}
+
+.categories__item:last-child {
+    margin-right: 60px;
 }
 
 .main-nav {
@@ -69,7 +100,7 @@ ul {
     width: 1160px;
     margin: 0 auto;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -80,7 +111,7 @@ ul {
 
 .about-us__second-column {
     width: 360px;
-    padding-top: 280px;
+    padding-top: 195px;
 }
 
 .about-us__percents {
@@ -102,6 +133,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     padding: 0;
+    height: 150px;
 }
 
 .page-footer {
@@ -126,6 +158,10 @@ ul {
     justify-content: space-between;
 }
 
+.friendship__second-column {
+    margin-right: 220px;
+}
+
 .adress {
     height: 362px;
     padding-left: 140px;
@@ -147,14 +183,13 @@ ul {
 
     width: 520px;
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 60px;
+    margin-bottom: 25px;
 }
 
 .slider__p {
     width: 380px;
-
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .about-us__big-p {
@@ -163,12 +198,12 @@ ul {
     font-weight: bold;
 
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .about-us__p {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .about-us__orders-item {
@@ -194,22 +229,26 @@ sup {
 .main-nav {
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 8px;
 }
 
 .main-nav__main-menu,
 .main-nav__cart {
     display: flex;
+    margin: 0;
     padding: 0;
     align-items: center;
+    padding-top: 5px;
 }
 
 .main-nav__link,
 .main-nav__cart-link {
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 .main-nav__cart-link {
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-right: 0;
     position: relative;
 }
 
@@ -229,6 +268,12 @@ sup {
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.categories__p {
+    margin-bottom: 45px;
 }
 
 .about-us__h3,
@@ -237,11 +282,13 @@ sup {
     line-height: 24px;
     text-transform: uppercase;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-us__h3_centered {
     text-align: center;
+
+    margin-bottom: 30px;
 }
 
 .about-us__orders {
@@ -266,7 +313,7 @@ sup {
 .adress__h3 {
     font-size: 18px;
     line-height: 30px;
-
+    margin-bottom: 20px;
     margin-top: 0px;
 }
 
@@ -274,8 +321,8 @@ sup {
     font-size: 16px;
     line-height: 18px;
 
-    margin-top: 30px;
-    margin-bottom: 40px;
+
+    margin-bottom: 50px;
 }
 
 .write-us__h2 {
@@ -310,8 +357,9 @@ textarea {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    text-transform: uppercase;
 
-    padding: 10px 40px;
+    padding: 15px 45px;
 }
 
 .categories__item:nth-child(2) .categories__button {
@@ -340,15 +388,15 @@ textarea {
 }
 
 .slider__item:first-of-type {
-    background: url("../img/slider__bg-1.png") no-repeat 100% 0%;
+    background: #eeeeee url("../img/slider__bg-1.png") no-repeat 93% 0%;
 }
 
 .slider__item:nth-of-type(2) {
-    background: url("../img/slider__bg-2.png") no-repeat 100% 0%;
+    background: #eeeeee url("../img/slider__bg-2.png") no-repeat 93% 0%;
 }
 
 .slider__item:last-of-type {
-    background: url("../img/slider__bg-3.png") no-repeat 100% 0%;
+    background: #eeeeee url("../img/slider__bg-3.png") no-repeat 93% 0%;
 }
 
 .categories__item:first-child {
@@ -363,8 +411,8 @@ textarea {
     background: url("../img/categories__bg-3.jpg") no-repeat;
 }
 
-.about-us__second-column {
-    background: url("../img/about-us__bg.jpg") no-repeat;
+.about-us {
+    background: url("../img/about-us__bg.jpg") no-repeat 100% 10%;
 }
 
 .friendship__img {
@@ -376,6 +424,7 @@ textarea {
 }
 
 .partners__link {
+    height: 180px;
     opacity: 0.3;
 }
 
