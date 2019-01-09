@@ -376,7 +376,7 @@ textarea {
 }
 
 .partners__link {
-    opacity: 0.2;
+    opacity: 0.3;
 }
 
 /* Интерактивные стили */
@@ -386,7 +386,7 @@ textarea {
 }
 
 .main-nav__logo:active {
-    opacity: 0.2;
+    opacity: 0.3;
 }
 
 .main-nav__link:hover,
@@ -442,5 +442,5 @@ textarea {
 }
 
 .partners__link:active {
-    opacity: 0.2;
+    opacity: 0.3;
 }
