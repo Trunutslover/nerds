@@ -448,9 +448,25 @@ textarea {
     color: #a6a6a6;
 }
 
-.main-nav__link-active,
+.main-nav__link-active ,
 .main-nav__cart-link-active {
-    border-bottom: 2px solid #fb565a;
+    position: relative;
+}
+
+.main-nav__link-active::after ,
+.main-nav__cart-link-active::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fb565a;
+    bottom: 0;
+    left: 25px;
+    right: 25px;
+}
+
+.main-nav__cart-link-active::after {
+    left: 0;
+    right: 0;
 }
 
 .slider__button:hover,
