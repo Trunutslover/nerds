@@ -555,7 +555,7 @@ textarea {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    border: 1px solid #a6a6a6;
+    border: 2px solid #d7dcde;
 }
 
 .write-us__message {
@@ -570,6 +570,13 @@ textarea {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    border: 2px solid #d7dcde;
+}
+
+.write-us__name::placeholder,
+.write-us__mail::placeholder,
+.write-us__message::placeholder {
+    color: #d7dcde;
 }
 
 .write-us__submit {
@@ -669,7 +676,39 @@ textarea {
     cursor: pointer;
 }
 
+.write-us__close:focus {
+    outline: none;
+}
+
 .write-us__close:hover::before,
-.write-us__close:hover::after {
+.write-us__close:hover::after,
+.write-us__close:focus::before,
+.write-us__close:focus::after {
     background-color: #fb565a;
+}
+
+.write-us__close:active::before,
+.write-us__close:active::after {
+    background-color: #ffeeee;
+}
+
+.write-us__name:hover,
+.write-us__mail:hover,
+.write-us__message:hover {
+    border-color: #b4b9bb;
+    color: #b4b9bb;
+}
+
+.write-us__name:hover::placeholder,
+.write-us__mail:hover::placeholder,
+.write-us__message:hover::placeholder {
+    color: #b4b9bb;
+}
+
+.write-us__name:focus,
+.write-us__mail:focus,
+.write-us__message:focus {
+    border-color: #000;
+    color: #000;
+    outline: none;
 }
