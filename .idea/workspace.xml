@@ -14,8 +14,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
+            <state relative-caret-position="298">
+              <caret line="132" column="202" selection-start-line="132" selection-start-column="202" selection-end-line="132" selection-end-column="202" />
             </state>
           </provider>
         </entry>
@@ -23,8 +23,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="679" column="17" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
+            <state relative-caret-position="621">
+              <caret line="650" column="14" selection-start-line="650" selection-start-column="14" selection-end-line="650" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,12 +151,12 @@
       <updated>1546859929256</updated>
       <workItem from="1546859930507" duration="23586000" />
       <workItem from="1547033363557" duration="10032000" />
-      <workItem from="1547111013112" duration="8612000" />
+      <workItem from="1547111013112" duration="10261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42230000" />
+    <option name="totallyTimeSpent" value="43879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -227,15 +227,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="170" column="25" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
+        <state relative-caret-position="298">
+          <caret line="132" column="202" selection-start-line="132" selection-start-column="202" selection-end-line="132" selection-end-column="202" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="679" column="17" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
+        <state relative-caret-position="621">
+          <caret line="650" column="14" selection-start-line="650" selection-start-column="14" selection-end-line="650" selection-end-column="14" />
         </state>
       </provider>
     </entry>

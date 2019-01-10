@@ -418,6 +418,7 @@ textarea {
 
 .friendship__img {
     vertical-align: middle;
+    fill: #fff;
 }
 
 .popup {
@@ -644,6 +645,10 @@ textarea {
 .write-us__submit:active {
     background-color: #d7373b;
     color: #a6a6a6;
+}
+
+.friendship__link:active .friendship__img {
+    fill: #a6a6a6;
 }
 
 .categories__item:nth-child(2) .categories__button:hover {
