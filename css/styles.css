@@ -420,6 +420,14 @@ textarea {
     vertical-align: middle;
 }
 
+.popup {
+    display: none;
+}
+
+.popup-show {
+    display: block;
+}
+
 .popup-write-us {
     display: block;
     width: 760px;
