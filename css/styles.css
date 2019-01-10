@@ -434,27 +434,27 @@ textarea {
     }
 
     70% {
-        -webkit-transform: translateY(-510px);
-        -moz-transform: translateY(-510px);
-        -ms-transform: translateY(-510px);
-        -o-transform: translateY(-510px);
-        transform: translateY(-510px);
+        -webkit-transform: translateY(-460px);
+        -moz-transform: translateY(-460px);
+        -ms-transform: translateY(-460px);
+        -o-transform: translateY(-460px);
+        transform: translateY(-460px);
     }
 
-    90% {
-        -webkit-transform: translateY(-550px);
-        -moz-transform: translateY(-550px);
-        -ms-transform: translateY(-550px);
-        -o-transform: translateY(-550px);
-        transform: translateY(-550px);
+    80% {
+        -webkit-transform: translateY(-500px);
+        -moz-transform: translateY(-500px);
+        -ms-transform: translateY(-500px);
+        -o-transform: translateY(-500px);
+        transform: translateY(-500px);
     }
     
     100% {
-        -webkit-transform: translateY(-540px);
-        -moz-transform: translateY(-540px);
-        -ms-transform: translateY(-540px);
-        -o-transform: translateY(-540px);
-        transform: translateY(-540px);
+        -webkit-transform: translateY(-490px);
+        -moz-transform: translateY(-490px);
+        -ms-transform: translateY(-490px);
+        -o-transform: translateY(-490px);
+        transform: translateY(-490px);
     }
 }
 
