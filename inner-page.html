@@ -26,7 +26,8 @@
     </header>
     <main class="inner-page">
         <aside class="filter">
-            <h2 class="filter__h2">Стоимость:</h2>
+            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <h3 class="filter__h3">Стоимость:</h3>
             <form class="filter__form" oninput="priceOutputMin.value=priceInputMin.value, priceOutputMax.value=priceInputMax.value">
                 <input type="range" name="priceInputMin" min="0" max="15000">
                 <input type="range" name="priceInputMax" min="0" max="15000">
@@ -54,7 +55,81 @@
             </form>
         </aside>
         <section class="products">
-
+            <h2 class="visually-hidden">Товары</h2>
+            <div class="products__sorting">
+                <h3 class="products__h3">Сортировать:</h3>
+                <ul class="products__sort">
+                    <li><a class="products__sort-option">По цене</a></li>
+                    <li><a class="products__sort-option">По типу</a></li>
+                    <li><a class="products__sort-option">По названию</a></li>
+                    <li><a class="products__sort-option">По убыванию</a></li>
+                    <li><a class="products__sort-option">По возрастанию</a></li>
+                </ul>
+            </div>
+            <div class="products__items">
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-sedona.jpg.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">Sedona</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-pink.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">Pink</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-barbershop.jpg.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">Borodinski</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-mishka.jpg.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">Mishka</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-aplus.jpg.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">A+</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-header"></div>
+                    <img class="products__img" src="img/img-kvast.jpg.jpg" width="360px" height="576px">
+                    <div class="products__info">
+                        <h4 class="products__h4">Кваст</h4>
+                        <p class="products__p">Информационный сайт для туристов</p>
+                        <button class="products__price">9 900 Руб.</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products__pagination">
+                <ul class="products__pagination-list">
+                    <li><a class="products__pagination-link">1</a></li>
+                    <li><a class="products__pagination-link">2</a></li>
+                    <li><a class="products__pagination-link">3</a></li>
+                    <li><a class="products__pagination-link">Следующая</a></li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="page-footer">
