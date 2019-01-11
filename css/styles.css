@@ -69,10 +69,6 @@ ul {
     justify-content: space-between;
 }
 
-.slider__controls {
-
-}
-
 .slider__label {
     content: "";
     display: inline-block;
@@ -638,6 +634,30 @@ textarea {
     height: 180px;
     opacity: 0.3;
 }
+
+/*Внутренние страницы*/
+
+.inner-page-header__h1 {
+    /* Позиционирование */
+
+
+    /* Блочная модель */
+    padding-bottom: 100px;
+
+    /* Типографика */
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+
+    /* Оформление */
+
+
+    /* Анимация */
+
+
+    /* Разное */
+}
+
 
 /* Интерактивные стили */
 
